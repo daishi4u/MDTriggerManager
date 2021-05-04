@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Is_Master_Setting__c</fullName>
+    <defaultValue>false</defaultValue>
+    <externalId>false</externalId>
+    <fieldManageability>SubscriberControlled</fieldManageability>
+    <inlineHelpText>This will be a master setting record. This allows for all triggers in the system to be turned off by unchecking the Enabled checkbox on this record and leaving Object blank. If Object has a value, this will control all handlers for that object</inlineHelpText>
+    <label>Is Master Setting</label>
+    <type>Checkbox</type>
+</CustomField>

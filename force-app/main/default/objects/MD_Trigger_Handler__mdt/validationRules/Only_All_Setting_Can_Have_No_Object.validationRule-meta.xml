@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Only_All_Setting_Can_Have_No_Object</fullName>
+    <active>true</active>
+    <errorConditionFormula>!Is_Master_Setting__c &amp;&amp; Object__c == NULL</errorConditionFormula>
+    <errorDisplayField>Object__c</errorDisplayField>
+    <errorMessage>Only the &quot;Is Master Setting&quot; record can have a blank object.</errorMessage>
+</ValidationRule>

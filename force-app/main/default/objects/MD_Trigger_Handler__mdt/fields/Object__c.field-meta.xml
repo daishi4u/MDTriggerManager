@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Object__c</fullName>
+    <externalId>false</externalId>
+    <fieldManageability>SubscriberControlled</fieldManageability>
+    <inlineHelpText>Object the trigger handler will fire on. If &quot;Is Master Setting&quot; is checked and Object isn&apos;t blank, then it will control all handlers for that object, otherwise it will control all handlers.</inlineHelpText>
+    <label>Object</label>
+    <referenceTo>EntityDefinition</referenceTo>
+    <relationshipLabel>MD_Trigger_Handlers</relationshipLabel>
+    <relationshipName>MD_Trigger_Handlers</relationshipName>
+    <required>false</required>
+    <type>MetadataRelationship</type>
+    <unique>false</unique>
+</CustomField>
